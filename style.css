@@ -9,6 +9,7 @@
   --font-body: 'Work Sans', sans-serif;
 }
 
+*,
 *::before,
 *::after {
   box-sizing: border-box;
