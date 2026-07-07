@@ -1,0 +1,58 @@
+:root {
+  --omc-blue: #1b2a4a;
+  --hqh-yellow: #fab928;
+  --white: #ffffff;
+  --off-white: #f4f2ef;
+  --ink: #2c3347;
+
+  --font-display: 'Fjalla One', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ink);
+  background-color: var(--white);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  color: var(--omc-blue);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.125rem; }
+
+p {
+  max-width: 65ch;
+}
