@@ -1,3 +1,5 @@
+/* colours + fonts, all in one place so I only change them once */
+
 :root {
   --omc-blue: #1b2a4a;
   --hqh-yellow: #fab928;
@@ -8,6 +10,8 @@
   --font-display: 'Fjalla One', sans-serif;
   --font-body: 'Work Sans', sans-serif;
 }
+
+/* Reset - zero out browser css so only mine applies */
 
 *,
 *::before,
@@ -42,6 +46,8 @@ img {
   max-width: 100%;
   display: block;
 }
+
+/* heading + paragraph defaults for the whole site */
 
 h1, h2, h3 {
   font-family: var(--font-display);
