@@ -194,9 +194,31 @@ p {
 
 /* Media Query for mobile responsiveness */
 
+@media (max-width: 768px) {
+  .primary-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .nav-links {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    padding: 3rem 1.5rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    max-width: none;
+  }
+}
+
 @media (max-width: 480px) {
   .primary-nav {
-    position: static; /* chose static positioning on mobile due screen size constraints */
+    position: static; /* chose static positioning on mobile due to screen size constraints */
   }
 
   .services-list {
