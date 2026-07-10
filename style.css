@@ -220,7 +220,7 @@ p {
 }
 
 @media (max-width: 480px) {
-  .primary-nav {
+  .site-header {
     position: static; /* chose static positioning on mobile due to screen size constraints */
   }
 
