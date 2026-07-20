@@ -177,6 +177,7 @@ p {
 .site-footer {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 0.5rem;
   background-color: var(--ink);
   color: var(--white);
