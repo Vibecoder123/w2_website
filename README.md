@@ -1,4 +1,4 @@
-**STEP8UP - Week 2 Assignment - Build a Multi-page Responsive Website**
+# STEP8UP - Week 2 Assignment - Build a Multi-page Responsive Website
 
 Website build in HTML, with a focus on CSS and responsiveness.
 
