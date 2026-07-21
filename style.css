@@ -68,7 +68,7 @@ h2 { font-size: 1.75rem; }
 h3 { font-size: 1.125rem; }
 
 p {
-  max-width: 65ch;
+  max-width: 65ch; /* stops paragraphs stretching edge-to-edge, but this is what broke footer centering earlier */
 }
 
 /* Nav block */
@@ -184,11 +184,11 @@ p {
 .site-footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* had to add this - p max-width above was shrinking the box so text-align alone couldn't center it */
   gap: var(--space-sm);
   background-color: var(--ink);
   color: var(--white);
-  text-align: center;
+  text-align: center; 
   padding: var(--space-xl) var(--space-lg);
 }
 
