@@ -132,7 +132,7 @@ p {
 }
 
 .hero h1 {
-  max-width: 20ch;
+  max-width: 20ch; /* capped width so the heading doesn't stretch full-hero-width on big screens */
 }
 
 .cta-button {
@@ -170,6 +170,7 @@ p {
   flex: 1 1 200px; /* grow/shrink freely without the need for a media query */
 }
 
+/* Trust Strip */
 .trust-strip ul {
   display: flex;
   flex-wrap: wrap;
@@ -279,7 +280,7 @@ p {
 
 .contact-form .cta-button {
   align-self: flex-start; 
-  font-family: var(--font-body); 
+  font-family: var(--font-body); /* buttons don't inherit link styling like .cta-button was built for - had to reset font + border manually */
   border: none;
   cursor: pointer;
 }
